@@ -1,22 +1,108 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/aef02421cb.js" crossorigin="anonymous"></script>
+        <meta name="Viewport" content="width=device-width, initial-scale=1">
     </head>
     <header> 
-    <span>Grandes ofertas en comederos</span>
-      <span aligne="right">Español</span>
-      <span aligne="right">ARG$</span>
-      <hr>
+    <div >Grandes ofertas en comederos</div>
+    <select class="navbar2" name="Idiomas" id="">
+      <option value="Es">Español</option>
+      <option value="En">Inglés</option>
+    </select>
+    <select class="navbar" name="Moneda" id="">
+      <option value="Peso argentino">ARG</option>
+      <option value="Dólares">USD</option>
+    </select>
     </header>
-    <nav>
-    <div style="background-color: orange"> 
-    
-    <span>Categorías</span>
-    <span>Pets</span>
-    <span>Nosotros</span>
-    <span>Contactanos</span>
+    <section class="orange">
+    <img src="./img/Logofront.png" class="logo">
+    <span i class="fa-solid fa-paw"></i>Categorías</span>
+    <span i class="fa-solid fa-paw">Pets</span>
+    <span i class="fa-solid fa-paw">Nosotros</span>
+    <span i class="fa-solid fa-paw">Contactanos</span>
+  </section>
+    <body>
+      <section class="banner">
+      <h1>¡Es un placer tenerte aquí!</h1>
+      <h4>¡Comederos en descuento!</h4>
+      <button>COMEDEROS</button>
+    </section>
+    <section class="destacado">
+      <div i class="fa-solid fa-paw"></div>
+      <div>Productos Destacados</div>
+    </section>
+    <section class="links">
+      <a href="https://listado.mercadolibre.com.uy/perros-comederos/" target="_blank">Comederos - </a>
+      <a href="https://listado.mercadolibre.com.uy/accesorios-para-perros" target="_blank">Accesorios - </a>
+      <a href="https://listado.mercadolibre.com.uy/comida-para-mascotas" target="_blank">Comida </a>
+    </section>
+    <br>
+
+    <div class="productos">
+
+      <section>
+        <img src="img/churrasquito.png">
+        <h3>Juguete Churrasquito</h3>
+        <p>$150</p>
+      </section>
+      <section>
+        <img src="img/comedero.png">
+        <h3>Comedero para perro</h3>
+        <p>$250</p>
+      </section>
+      <section>
+        <img src="img/Huesito.png">
+        <h3>Juguete huesito</h3>
+        <p>$650</p>
+      </section>
 
     </div>
-</nav>
+
+  <h2>Contáctanos</h2>
+
+  <form class="datos">
+    
+    <input type="text" id="Nombre" name="Nombre" value="Nombre y Apellido" class="fcolor">
+    <br>
+    
+    <input type="text" id="correo" name="correo" value="Ingresá tu correo electrónico" class="fcolor">
+    <br>
+
+    <input type="text" id="Teléfono" name="Teléfono" value="Teléfono" class="fcolor">
+
+  </form>
+<br>
+  <div class="but">
+  <button>Resetear</button>
+  <button>Enviar</button>
+</div>
+
+</body>
+<br>
+<footer>
+  <section>
+    <div class="fnaranja">
+  <h5 i class="fa-solid fa-envelope-circle-check">Suscríbete para más novedades</h5>
+  <input type="text" placeholder="Ingresá tu correo electrónico">
+  <button>Suscribirme</button>
+    </div>
+  </section>
+  
+  <section>
+    <div class="brown">
+    <h6 i class="fa-solid fa-location-dot"> Localidad</h6>
+    <span class="ftext">Calle - provincia</span>
+    <h6 i class="fa-solid fa-phone-volume"> Teléfono</h6>
+    <span class="ftext">Número de teléfono</span>
+    <h6 i class="fa-solid fa-envelope-open-text"> Correo Electrónico</h6>
+    <span class="ftext">Dirección de correo</span>
+    <img src="./img/Logofront.png" class="logof">
+  </div>
+  </section>
+<div class="lastline">Todos los derechos reservados Front End</div>
+
+</footer>
 </html>

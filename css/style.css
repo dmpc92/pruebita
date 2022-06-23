@@ -1,0 +1,205 @@
+
+h1{ text-align: right;
+    margin-right: 100px;
+    margin-top: 200px;
+    color:black;
+    background-color: white;
+    display: inline-block; 
+    padding:8px;  }
+
+.navbar{
+  text-align: right;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row;
+    box-sizing: content-box;
+    position: relative;
+    left: 1050px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: black;
+    color:white;
+    
+}
+
+.navbar2{
+    text-align: right;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+      box-sizing: content-box;
+      position: absolute;
+      left: 1050px;
+      padding: 5px;
+      margin-right: -80px;
+      background-color: black;
+      color:white;
+      
+  }
+
+header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction:space-around;
+    padding:6px;
+    font-size: 10px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;}
+
+.orange{
+        display: flex;
+        background-color: orange;
+        width: 100%;
+        height:50px;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        }
+
+
+
+.logo{
+    align-self: left;
+    display:flex;
+    position:relative;
+}
+
+.banner{
+    background-image:url(../img/bowl.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    height: 500px;
+    
+    
+}
+
+button{color:white;
+        background-color: orange;
+        padding: 8px;
+        margin-right: 200px;
+    margin-top: 5px;
+}
+
+h4{
+    margin-right: 150px;
+    margin-top: 1px;
+}
+
+.destacado{
+    font-size: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{
+    background-color: #FBFAF6;
+    color:#3C2313;
+    text-align: center;
+}
+
+p{
+    background-color: #FBFAF6;
+    color:#F0A83E;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    color:#3C2313;
+}
+
+.datos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;   
+}
+
+.fcolor{
+        border:#3C2313 solid 5px;
+        box-sizing: border-box;
+        background-color: #3C2313;
+        color: white;
+        border-radius: 10px;
+}
+
+.but {  text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-left: 250px;    
+}
+
+button:hover {
+    background-color:#8A8787; 
+    border-radius: 15px;
+}
+
+
+
+.fnaranja{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0A83E;
+    padding: 10px;
+    color: white;
+   
+}
+
+h6{
+    font-size: large;
+    color: white;
+}
+
+.ftext{
+    color:#8A8787;
+}
+.brown{
+       display: flex;
+       flex-direction: column;
+       align-items: left;
+       font-size: 10px;
+       background-color:#3C2313 ;
+       text-indent: 50px;
+    
+}
+
+.logof{
+align-self: flex-end;
+display:flex;
+}
+
+.lastline{
+    background-color: black;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    padding:6px;
+    font-size: 10px;
+    text-align: center;
+}
